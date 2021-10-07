@@ -9,7 +9,7 @@ namespace PromotionStrategyEngine.Models
     class Cart
     {
         public Dictionary<Product, int> productMap { get; set; }
-        public void AddProduct(Product _product)
+        public Cart AddProduct(Product _product)
         {
             if (productMap.ContainsKey(_product))
             {
@@ -20,6 +20,7 @@ namespace PromotionStrategyEngine.Models
                 productMap.Add(_product, 1);
 
             }
+            return this;
         }
         public void RemoveProduct(Product _product)
         {
