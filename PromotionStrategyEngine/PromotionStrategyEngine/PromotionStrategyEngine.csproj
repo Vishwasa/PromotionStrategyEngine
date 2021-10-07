@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiscountStrategyPattern\DiscountStrategy2.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="DiscountStrategyPattern\DiscountStrategy1.cs" />
+    <Compile Include="DiscountStrategyPattern\Interfaces\IDiscountStrategy.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
