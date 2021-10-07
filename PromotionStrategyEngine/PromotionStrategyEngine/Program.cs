@@ -10,6 +10,9 @@ namespace PromotionStrategyEngine
     {
         static void Main(string[] args)
         {
+            Tests test = new Tests();
+            test.TestScenario1();
+            Console.ReadLine();
         }
     }
 }
